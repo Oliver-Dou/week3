@@ -18,6 +18,7 @@ Then read in the GeoPackage layer for the whole of Australia (layer ending in 0)
 
 ```{r cars, echo=TRUE}
 library(sf)
+library(sf)
 Ausoutline <- st_read(here("data", "gadm36_AUS.gpkg"), 
                       layer='gadm36_AUS_0')
 print(Ausoutline)
